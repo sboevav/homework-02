@@ -6,25 +6,35 @@ MACHINES = {
         :box_name => "centos/7",
         :ip_addr => '192.168.11.101',
 	:disks => {
-		:sata1 => {
-			:dfile => './sata1.vdi',
+		:sata11 => {
+			:dfile => './sata11.vdi',
 			:size => 250,
 			:port => 1
 		},
-		:sata2 => {
-                        :dfile => './sata2.vdi',
+		:sata12 => {
+                        :dfile => './sata12.vdi',
                         :size => 250, # Megabytes
 			:port => 2
 		},
-                :sata3 => {
-                        :dfile => './sata3.vdi',
+                :sata13 => {
+                        :dfile => './sata13.vdi',
                         :size => 250,
                         :port => 3
                 },
-                :sata4 => {
-                        :dfile => './sata4.vdi',
+                :sata14 => {
+                        :dfile => './sata14.vdi',
                         :size => 250, # Megabytes
                         :port => 4
+                },
+                :sata15 => {
+                        :dfile => './sata15.vdi',
+                        :size => 100,
+                        :port => 5
+                },
+                :sata16 => {
+                        :dfile => './sata16.vdi',
+                        :size => 100, # Megabytes
+                        :port => 6
                 }
 
 	}
